@@ -18,4 +18,5 @@ return result_list
 # Create new list based on condition
 result_list = new_list(list_1, list_2)
 
-# 
+# Print new list
+print(f"Result is: ", result_list)
