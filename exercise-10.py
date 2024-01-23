@@ -13,6 +13,9 @@ for i in list_2:
     if i % 2 == 0:
         result_list.append(i)
 
-# 
+return result_list
+
+# Create new list based on condition
+result_list = new_list(list_1, list_2)
 
 # 
