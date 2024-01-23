@@ -4,7 +4,9 @@ def new_list(list_1, list_2):
     result_list = []
 
 # Iterate first list
-
+for i in list_1:
+    if num % 2 != 0:
+        result_list.append(num)
 
 # 
 
