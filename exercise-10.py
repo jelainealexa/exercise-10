@@ -5,8 +5,13 @@ def new_list(list_1, list_2):
 
 # Iterate first list
 for i in list_1:
-    if num % 2 != 0:
-        result_list.append(num)
+    if i % 2 != 0:
+        result_list.append(i)
+
+# Iterate second list
+for i in list_2:
+    if i % 2 == 0:
+        result_list.append(i)
 
 # 
 
