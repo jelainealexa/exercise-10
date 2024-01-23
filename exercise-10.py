@@ -12,8 +12,11 @@ for i in list_1:
 for i in list_2:
     if i % 2 == 0:
         result_list.append(i)
+    return result_list
 
-return result_list
+# Given
+list_1 = [23, 45, 86, 90, 13, 14]
+list_2 = [18, 76, 77, 95, 23, 45]
 
 # Create new list based on condition
 result_list = new_list(list_1, list_2)
